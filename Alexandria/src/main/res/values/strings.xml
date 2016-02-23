@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings -->
+    <string name="googleapis_books_api" translatable="false">https://www.googleapis.com/books/v1/volumes</string>
+    <string name="ean_13_prefix" translatable="false">978</string>
+    <string name="pref_startScreen">Select startscreen</string>
+    <string name="start_fragment_preference_key" translatable="false">pref_startFragment</string>
+
+    <!-- Fragment/ Menu items -->
+    <string name="app_name" translatable="false">Alexandria</string>
+    <string name="books">Book list</string>
+    <string name="scan">Add book</string>
+    <string name="about">About Alexandria</string>
+    <string name="detail">Book detail</string>
+    <string name="settings">Settings</string>
+
+    <!-- Content descriptions -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="book_cover">Book cover</string>
+    <string name="book_cover_not_available">Book cover not available</string>
+    <string name="scanner_prompt">Scan an ISBN barcode</string>
+    <string name="isbn_13" translatable="false">ISBN-13</string>
+
+    <!-- Toasts -->
+    <string name="book_not_found">Book not found</string>
+    <string name="book_saved">Book saved to book list</string>
+    <string name="book_saved_before">Book found, but already on book list</string>
+    <string name="book_deleted">Book removed from the book list</string>
+    <string name="scanner_cancelled">Scan cancelled</string>
+    <string name="network_required_notice">Network connectivity required, please check your internet connection</string>
+    <string name="text_input_required">Please enter an ISBN number (10 or 13 digits only)</string>
+    <string name="search_list_notice">Enter a query of at least 2 characters</string>
+    <string name="empty_book_list">No books found, scan more books or narrow down your search query</string>
+
+    <!-- Hints -->
+    <string name="search_isbn_hint">Insert an ISBN-13 number</string>
+    <string name="search_list_hint">Search the list</string>
+
+    <!-- Buttons -->
+    <string name="scan_button">Scan a barcode</string>
+    <string name="search_button">Search a book</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="delete_button">Delete Book</string>
+
+    <!-- Sharing -->
+    <string name="action_share">Share</string>
+    <string name="share_text">A must read book: </string>
+    <string name="share_url" translatable="false">https://books.google.com/books?isbn=</string>
+
+    <!-- About text -->
+    <string name="about_text">
+        This application gets book information from a Google API. All titles, cover images, and author information come from there.
+        The original version of this app was built by Sascha Jaschke, and a modified version is given to students in the Udacity Android Nanodegree program.
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

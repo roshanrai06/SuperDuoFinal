@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Functions -->
+    <string name="action_settings">Configurações</string>
+    <string name="action_refresh">Recarregar</string>
+    <string name="share_text">Compartilhar</string>
+
+    <!-- Days -->
+    <string name="yesterday">Ontem</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+
+    <!-- Stages -->
+    <string name="matchday_text">Rodada</string>
+    <string name="group_stage_text">Primeira Fase</string>
+    <string name="first_knockout_round">Segunda Fase</string>
+    <string name="quarter_final">Quartas de Final</string>
+    <string name="semi_final">Semifinal</string>
+    <string name="final_text">Final</string>
+
+    <!-- Notices -->
+    <string name="league_unknown">Não conhecido liga, por favor informe</string>
+    <string name="network_required_notice">A conectividade de rede necessária. Por favor, verifique sua conexão com a internet</string>
+    <string name="config_footballdata_api_key_not_set_notice">O Api de football-data.org precisa um API key, por favor entra no Configurações</string>
+
+    <!-- Preferences - Api Key -->
+    <string name="pref_apikey_hint">digite api key</string>
+
+    <!-- About -->
+    <string name="about_text">
+        "Esta aplicação contém jogos de futebol e os resultados para a Premier League, Seria A, Bundesliga, Primera Division, Eredivisie e da UEFA Liga dos Campeões.
+
+Todos os dados esta adquirido do o API livre football-data.org.
+
+Todos os logotipos da equipe são adquiridos de wikimedia.org.
+
+A versão original deste aplicativo foi criado por Yahia Ibn El Walid Khalid Ahmed, e uma versão modificada é dada aos alunos do programa Udacity Nanodegree Android.
+
+Durante a entressafra, os dados falsos serão adicionadas ao aplicativo."
+    </string>
+
+</resources>

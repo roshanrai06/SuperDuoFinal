@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="black">#000000</color>
+    <color name="cover_na_grey">#efefef</color>
+
+    <!-- using the "Light Blue" Material Palette -->
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="barqsoft.footballscores" >
+
+    <!-- PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        >
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- About Activity -->
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/action_about"
+            android:theme="@style/AboutTheme"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="barqsoft.footballscores.MainActivity" />
+        </activity>
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/SettingsTheme"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="barqsoft.footballscores.MainActivity" />
+        </activity>
+
+        <!-- LatestFixture Widget & Service -->
+        <receiver
+            android:name=".widget.LatestFixtureWidgetProvider"
+            android:label="@string/widget_latest_fixture_label"
+            >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="barqsoft.footballscores.ACTION_DATA_UPDATED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_latest_fixture"
+                />
+        </receiver>
+        <service android:name=".widget.LatestFixtureWidgetService" />
+
+        <!-- TodaysFixtures Widget & Service -->
+        <receiver
+            android:name=".widget.TodaysFixturesWidgetProvider"
+            android:label="@string/widget_todays_fixtures_label"
+            >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="barqsoft.footballscores.ACTION_DATA_UPDATED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_todays_fixtures"
+                />
+        </receiver>
+        <service
+            android:name=".widget.TodaysFixturesWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- Scores Provider -->
+        <provider
+            android:name=".data.ScoresProvider"
+            android:authorities="barqsoft.footballscores"
+            android:exported="false"
+            />
+
+        <!-- FootballData Service -->
+        <service android:name=".service.FootballDataService" />
+
+    </application>
+</manifest>

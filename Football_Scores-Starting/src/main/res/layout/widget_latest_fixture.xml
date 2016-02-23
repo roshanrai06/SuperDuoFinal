@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_latest_fixtures"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/widget_margin"
+    android:paddingTop="@dimen/widget_latest_fixture_padding_vertical"
+    android:paddingBottom="@dimen/widget_latest_fixture_padding_vertical"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    >
+
+    <!-- Home Team -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/home_crest"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:src="@drawable/football"
+            />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/home_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/widget_latest_fixture_team_names"
+            android:maxLines="1"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <!-- Result -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <!-- Score -->
+        <TextView
+            android:id="@+id/score_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/Score"
+            android:textStyle="bold"
+            />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <!-- Away Team -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/away_crest"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:src="@drawable/football"
+            />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/away_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/widget_latest_fixture_team_names"
+            android:maxLines="1"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</LinearLayout>

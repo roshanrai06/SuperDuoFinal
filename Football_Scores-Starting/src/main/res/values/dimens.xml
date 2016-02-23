@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_horizonal_margin">2dp</dimen>
+    <dimen name="share_button_margin">150dp</dimen>
+    <dimen name="TeamNames">15sp</dimen>
+    <dimen name="Score">24sp</dimen>
+    <dimen name="League">15sp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="margin">24dp</dimen>
+    <dimen name="large_margin">36dp</dimen>
+
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="tabstrip_tab_padding_horizontal">16dp</dimen>
+
+    <!-- LatestFixture Widget dimensions -->
+    <dimen name="widget_latest_fixture_padding_vertical">2dp</dimen>
+    <dimen name="widget_latest_fixture_default_width">250dp</dimen>
+    <dimen name="widget_latest_fixture_default_height">40dp</dimen>
+    <dimen name="widget_latest_fixture_min_resize_width">180dp</dimen>
+    <dimen name="widget_latest_fixture_min_resize_height">@dimen/widget_latest_fixture_default_height</dimen>
+    <dimen name="widget_latest_fixture_team_names">12sp</dimen>
+
+    <!-- TodaysFixtures Widget dimensions -->
+    <dimen name="widget_todays_fixtures_default_width">250dp</dimen>
+    <dimen name="widget_todays_fixtures_default_height">110dp</dimen>
+    <dimen name="widget_todays_fixtures_min_resize_width">180dp</dimen>
+    <dimen name="widget_todays_fixtures_min_resize_height">@dimen/widget_todays_fixtures_default_height</dimen>
+
+</resources>

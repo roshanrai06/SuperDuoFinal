@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_todays_fixtures"
+    android:minWidth="@dimen/widget_todays_fixtures_default_width"
+    android:minHeight="@dimen/widget_todays_fixtures_default_height"
+    android:previewImage="@drawable/widget_todays_fixtures"
+    android:updatePeriodMillis="3600000"
+    android:minResizeWidth="@dimen/widget_todays_fixtures_min_resize_width"
+    android:minResizeHeight="@dimen/widget_todays_fixtures_min_resize_height"
+    android:widgetCategory="home_screen"
+    android:resizeMode="horizontal|vertical"
+    >
+</appwidget-provider>

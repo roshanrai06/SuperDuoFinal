@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- API KEY -->
+    <EditTextPreference
+        android:key="@string/pref_apikey_key"
+        android:title="@string/pref_apikey_label"
+        android:hint="@string/pref_apikey_hint"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+
+</PreferenceScreen>

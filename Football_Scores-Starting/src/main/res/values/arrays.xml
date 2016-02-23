@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Selected Leagues -->
+    <integer-array name="leagues_selected">
+        <item>@integer/league_bundesliga_1_code</item>
+        <!--<item>@integer/league_bundesliga_2_code</item>-->
+        <!--<item>@integer/league_ligue_1_code</item>-->
+        <!--<item>@integer/league_ligue_2_code</item>-->
+        <item>@integer/league_premier_league_code</item>
+        <item>@integer/league_primera_division_code</item>
+        <!--<item>@integer/league_segunda_division_code</item>-->
+        <item>@integer/league_serie_a_code</item>
+        <!--<item>@integer/league_primeira_liga_code</item>-->
+        <!--<item>@integer/league_bundesliga_3_code</item>-->
+        <item>@integer/league_eredivisie_code</item>
+        <item>@integer/league_champions_league_code</item>
+    </integer-array>
+
+    <!-- League labels -->
+    <string-array name="league_labels">
+        <item>@string/league_bundesliga_1_label</item>
+        <item>@string/league_bundesliga_2_label</item>
+        <item>@string/league_ligue_1_label</item>
+        <item>@string/league_ligue_2_label</item>
+        <item>@string/league_premier_league_label</item>
+        <item>@string/league_primera_division_label</item>
+        <item>@string/league_segunda_division_label</item>
+        <item>@string/league_serie_a_label</item>
+        <item>@string/league_primeira_liga_label</item>
+        <item>@string/league_bundesliga_3_label</item>
+        <item>@string/league_eredivisie_label</item>
+        <item>@string/league_champions_league_label</item>
+    </string-array>
+
+    <!-- League codes -->
+    <integer-array name="league_codes">
+        <item>@integer/league_bundesliga_1_code</item>
+        <item>@integer/league_bundesliga_2_code</item>
+        <item>@integer/league_ligue_1_code</item>
+        <item>@integer/league_ligue_2_code</item>
+        <item>@integer/league_premier_league_code</item>
+        <item>@integer/league_primera_division_code</item>
+        <item>@integer/league_segunda_division_code</item>
+        <item>@integer/league_serie_a_code</item>
+        <item>@integer/league_primeira_liga_code</item>
+        <item>@integer/league_bundesliga_3_code</item>
+        <item>@integer/league_eredivisie_code</item>
+        <item>@integer/league_champions_league_code</item>
+    </integer-array>
+
+</resources>

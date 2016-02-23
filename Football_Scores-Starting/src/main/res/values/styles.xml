@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Main App theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbarStyle">@style/Toolbar</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:alertDialogTheme">@style/DialogStyle</item>
+    </style>
+
+    <!-- About activity theme -->
+    <style name="AboutTheme" parent="AppTheme">
+    </style>
+
+    <!-- Settings activity theme -->
+    <style name="SettingsTheme" parent="AppTheme">
+    </style>
+
+    <!-- Toolbar theme -->
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="PagerTabStripText">
+        <item name="android:textSize">@dimen/TeamNames</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- ListPreference (Dialog) styling -->
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primary</item>
+    </style>
+
+</resources>

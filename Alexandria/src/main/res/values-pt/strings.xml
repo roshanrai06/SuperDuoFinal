@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings -->
+    <string name="pref_startScreen">Escolher tela inicial</string>
+
+    <!-- Fragment/ Menu items -->
+    <string name="books">Livros</string>
+    <string name="scan">Adicionar livro</string>
+    <string name="about">Sobre Alexandria</string>
+    <string name="detail">Detalhes do livro</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Content descriptions -->
+    <string name="navigation_drawer_open" >Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="book_cover">Capa de livro</string>
+    <string name="book_cover_not_available">Capa de livro não disponível</string>
+    <string name="scanner_prompt">Escanear um código ISBN</string>
+
+    <!-- Toasts -->
+    <string name="book_not_found">Livro não disponível</string>
+    <string name="book_saved">Livro adicionado à lista de livros</string>
+    <string name="book_saved_before">Livro achado, mas já existe na lista de livros</string>
+    <string name="book_deleted">Livro removido da lista de livros</string>
+    <string name="scanner_cancelled">Escanear cancelada</string>
+    <string name="network_required_notice">A conectividade de rede necessária. Por favor, verifique sua conexão com a internet</string>
+    <string name="text_input_required">Por favor digite um código ISBN (somente 10 ou 13 dígitos)</string>
+    <string name="search_list_notice">Digite pelo menos 2 caráteres</string>
+    <string name="empty_book_list">Nenhum livro achado, escanear mais livros ou afinar a sua busca</string>
+
+    <!-- Hints -->
+    <string name="search_isbn_hint">Digite um código ISBN-13</string>
+    <string name="search_list_hint">Busca a lista</string>
+
+    <!-- Buttons -->
+    <string name="scan_button">Escanear código de barras</string>
+    <string name="search_button">Buscar</string>
+    <string name="save_button">Guarda</string>
+    <string name="cancel_button">Cancela</string>
+    <string name="delete_button">Excluir livro</string>
+
+    <!-- Sharing -->
+    <string name="action_share">Compartilhar</string>
+    <string name="share_text">Um livro de leitura obrigatória: </string>
+
+    <!-- About text -->
+    <string name="about_text">
+        Este aplicativo obtém informações sobre os livros com Google Books API. Todos os títulos, capa de livros, e outro informações do livro vêm de lá.
+        A versão original deste app foi construído por Sascha Jaschke, e uma versão modificada é dada aos alunos do programa Udacity Android Nanodegree.
+    </string>
+
+</resources>

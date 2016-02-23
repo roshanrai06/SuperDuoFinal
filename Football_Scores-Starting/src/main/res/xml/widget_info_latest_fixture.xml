@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_latest_fixture"
+    android:minWidth="@dimen/widget_latest_fixture_default_width"
+    android:minHeight="@dimen/widget_latest_fixture_default_height"
+    android:previewImage="@drawable/widget_latest_fixture"
+    android:updatePeriodMillis="3600000"
+    android:minResizeWidth="@dimen/widget_latest_fixture_min_resize_width"
+    android:minResizeHeight="@dimen/widget_latest_fixture_min_resize_height"
+    android:widgetCategory="home_screen"
+    android:resizeMode="horizontal"
+    >
+</appwidget-provider>

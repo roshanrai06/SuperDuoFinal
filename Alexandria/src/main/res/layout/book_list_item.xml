@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    >
+
+    <ImageView
+        android:id="@+id/fullBookCover"
+        android:contentDescription="@string/book_cover_not_available"
+        android:layout_width="54dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:padding="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/cover_na_grey"
+        />
+
+    <TextView
+        android:id="@+id/listBookTitle"
+        android:layout_toRightOf="@id/fullBookCover"
+        android:layout_toEndOf="@+id/fullBookCover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:paddingTop="4dp"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/listBookSubTitle"
+        android:layout_toRightOf="@+id/fullBookCover"
+        android:layout_toEndOf="@+id/fullBookCover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="4dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:fontFamily="sans-serif-light"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>

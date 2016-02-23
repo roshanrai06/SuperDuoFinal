@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings -->
+    <string name="pref_startScreen">Startscherm selecteren</string>
+
+    <!-- Fragment/ Menu items -->
+    <string name="books">Boekenlijst</string>
+    <string name="scan">Boek toevoegen</string>
+    <string name="about">Over Alexandria</string>
+    <string name="detail">Boek detail</string>
+    <string name="settings">Instellingen</string>
+
+    <!-- Content descriptions -->
+    <string name="navigation_drawer_open" >Navigatie drawer openen</string>
+    <string name="navigation_drawer_close">Navigatie drawer sluiten</string>
+    <string name="book_cover">Boek cover</string>
+    <string name="book_cover_not_available">Boek cover niet gevonden</string>
+    <string name="scanner_prompt">Scan een ISBN streepjescode</string>
+
+    <!-- Toasts -->
+    <string name="book_not_found">Boek niet gevonden</string>
+    <string name="book_saved">Boek aan de boekenlijst toegevoegd</string>
+    <string name="book_saved_before">Boek gevonden, maar staat al op de boekenlijst</string>
+    <string name="book_deleted">Boek verwijderd van de boekenlijst</string>
+    <string name="scanner_cancelled">Scan gecancelled</string>
+    <string name="network_required_notice">Netwerk verplicht, controleer je verbinding</string>
+    <string name="text_input_required">Voer een ISBN nummer in (alleen 10 of 13 cijfers)</string>
+    <string name="search_list_notice">Voer minimaal 2 karakters in om te zoeken</string>
+    <string name="empty_book_list">Geen boeken gevonden, scan meer boeken of voer een ruimere zoekopdracht in</string>
+
+    <!-- Hints -->
+    <string name="search_isbn_hint">Voer een ISBN-13 nummer in</string>
+    <string name="search_list_hint">Zoeken in de lijst</string>
+
+    <!-- Buttons -->
+    <string name="scan_button">Streepjescode scannen</string>
+    <string name="search_button">Zoeken</string>
+    <string name="save_button">Toevoegen</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="delete_button">Boek verwijderen</string>
+
+    <!-- Sharing -->
+    <string name="action_share">Delen</string>
+    <string name="share_text">Een must read boek:</string>
+
+    <!-- About text -->
+    <string name="about_text">
+        Deze applicatie maakt gebruik van de Google Books API. Alle boek details zoals titels, cover beelden, autheur informatie, etc. kan hierin worden gevonden.
+        De originele applicatie is gebouwd door Sascha Jaschke, en een eengepaste versie is ter beschikking gesteld aan studenten van het Udacity Android Nanodegree programma.
+    </string>
+
+</resources>

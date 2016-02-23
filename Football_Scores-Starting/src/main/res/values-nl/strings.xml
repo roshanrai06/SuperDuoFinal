@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Functions -->
+    <string name="action_settings">Instellingen</string>
+    <string name="action_refresh">Herladen</string>
+    <string name="share_text">Delen</string>
+
+    <!-- Days -->
+    <string name="yesterday">Gisteren</string>
+    <string name="today">Vandaag</string>
+    <string name="tomorrow">Morgen</string>
+
+    <!-- Stages -->
+    <string name="matchday_text">Wedstrijdronde</string>
+    <string name="group_stage_text">Groep stages</string>
+    <string name="first_knockout_round">Eerste knockout ronde</string>
+    <string name="quarter_final">Kwart finale</string>
+    <string name="semi_final">Halve finale</string>
+    <string name="final_text">Finale</string>
+
+    <!-- Notices -->
+    <string name="league_unknown">Onbekende league, graag melden</string>
+    <string name="network_required_notice">Netwerk verbinding nodig, controleer je internet instellingen</string>
+    <string name="config_footballdata_api_key_not_set_notice">De football-data.org API key moet worden ingevoerd bij de Instellingen</string>
+
+    <!-- Preferences - Api Key -->
+    <string name="pref_apikey_hint">api key invoeren</string>
+
+    <!-- About -->
+    <string name="about_text">
+        "Deze applicatie bevat wedstrijden en hun resultaten van o.a. de Premier League, Seria A, Bundesliga, Primera Division, Eredivisie en de UEFA Champions League.
+
+Alle data wordt geladen van de gratis football-data.org API.
+
+Alle team logo\'s worden geladen vanaf wikimedia.org.
+
+The originele versie van deze app is ontwikkeld door Yahia Khalid Ibn El Walid Ahmed, en een aangepaste versie is beschikbaar gesteld aan studenten van het Udacity Android Nanodegree programma.
+
+Buiten het voetbal seizoen wordt dummy data getoond."
+    </string>
+
+</resources>

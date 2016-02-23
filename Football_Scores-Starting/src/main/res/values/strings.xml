@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Football Scores</string>
+
+    <!-- Functions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="share_text">Share</string>
+
+    <!-- Days -->
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Stages -->
+    <string name="matchday_text">Match day</string>
+    <string name="group_stage_text">Group stages</string>
+    <string name="first_knockout_round">First knockout round</string>
+    <string name="quarter_final">Quarter Final</string>
+    <string name="semi_final">Semi Final</string>
+    <string name="final_text">Final</string>
+
+    <!-- Notices -->
+    <string name="league_unknown">Not known league, please report</string>
+    <string name="network_required_notice">Network connectivity required, please check your internet connection</string>
+    <string name="config_footballdata_api_key_not_set_notice">You need to set the football-data.org API key in the Settings</string>
+    <string name="failed_loading_teams" translatable="false">Could not load teams for league</string>
+    <string name="failed_loading_fixtures" translatable="false">Could not load fixtures from the api</string>
+    <string name="empty_fixtures_list">No Scores Available</string>
+
+    <!-- Preferences - Api Key -->
+    <string name="pref_apikey_key" translatable="false">api_key</string>
+    <string name="pref_apikey_label" translatable="false">Football-data.org Api Key</string>
+    <string name="pref_apikey_hint">enter api key</string>
+
+    <!-- Leagues -->
+    <string name="league_bundesliga_1_label" translatable="false">1. Bundesliga</string>
+    <integer name="league_bundesliga_1_code" translatable="false">394</integer>
+    <string name="league_bundesliga_2_label" translatable="false">2. Bundesliga</string>
+    <integer name="league_bundesliga_2_code" translatable="false">395</integer>
+    <string name="league_ligue_1_label" translatable="false">Ligue 1</string>
+    <integer name="league_ligue_1_code" translatable="false">396</integer>
+    <string name="league_ligue_2_label" translatable="false">Ligue 2</string>
+    <integer name="league_ligue_2_code" translatable="false">397</integer>
+    <string name="league_premier_league_label" translatable="false">Premier League</string>
+    <integer name="league_premier_league_code" translatable="false">398</integer>
+    <string name="league_primera_division_label" translatable="false">Primera Division</string>
+    <integer name="league_primera_division_code" translatable="false">399</integer>
+    <string name="league_segunda_division_label" translatable="false">Segunda Division</string>
+    <integer name="league_segunda_division_code" translatable="false">400</integer>
+    <string name="league_serie_a_label" translatable="false">Serie A</string>
+    <integer name="league_serie_a_code" translatable="false">401</integer>
+    <string name="league_primeira_liga_label" translatable="false">Primeira Liga</string>
+    <integer name="league_primeira_liga_code" translatable="false">402</integer>
+    <string name="league_bundesliga_3_label" translatable="false">3. Bundesliga</string>
+    <integer name="league_bundesliga_3_code" translatable="false">403</integer>
+    <string name="league_eredivisie_label" translatable="false">Eredivisie</string>
+    <integer name="league_eredivisie_code" translatable="false">404</integer>
+    <string name="league_champions_league_label" translatable="false">Champions League</string>
+    <integer name="league_champions_league_code" translatable="false">405</integer>
+
+    <!-- About -->
+    <string name="about_text">
+        "This application contains football matches and results for the Premier League, Seria A, Bundesliga, Primera Division, Eredivisie and the UEFA Champions League.
+
+All match data is acquired from football-data.org free API.
+
+All team logos are acquired from wikimedia.org.
+
+The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+
+During the off season, fake data will be added to the app."
+    </string>
+
+    <!-- Config -->
+    <string name="config_footballdata_api_base_url" translatable="false">http://api.football-data.org/v1</string>
+    <string name="config_footballdata_api_fixtures" translatable="false">fixtures</string>
+    <string name="config_footballdata_api_seasons" translatable="false">soccerseasons</string>
+    <string name="config_footballdata_api_teams" translatable="false">teams</string>
+    <string name="config_footballdata_api_param_timeframe" translatable="false">timeFrame</string>
+    <string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/v1/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/v1/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/v1/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/v1/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/v1/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/v1/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/v1/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/v1/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/v1/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/v1/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/v1/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/v1/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/v1/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/v1/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/v1/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/v1/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/v1/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/v1/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/v1/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/v1/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+    <string name="share_hashtag" translatable="false">#FootballScores</string>
+
+    <!-- Widgets -->
+    <string name="widget_latest_fixture_label">Latest Fixture</string>
+    <string name="widget_todays_fixtures_label">Today\'s Fixtures</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <!-- Toolbar -->
+    <include layout="@layout/toolbar" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <!-- Start placeholder for the various fragments -->
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/margin"
+                />
+
+            <!-- End placeholder for the detail fragments -->
+            <FrameLayout
+                android:id="@+id/right_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/margin"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                />
+
+        </LinearLayout>
+
+        <!-- Drawer -->
+        <fragment
+            android:id="@+id/navigation_drawer"
+            android:name="nl.cml.alexandria.NavigationDrawerFragment"
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            tools:layout="@layout/fragment_navigation_drawer"
+            />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
