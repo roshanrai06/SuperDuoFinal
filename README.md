@@ -37,21 +37,6 @@ The Football Scores app uses the Football-data.org Api to retrieve the fixtures-
 | ![Main](./FootballScores/doc/screenshots/device-2015-12-07-181150.png?raw=true "Main") | ![Detail](./FootballScores/doc/screenshots/device-2015-12-07-181351.png?raw=true "Detail") |![Widgets](./FootballScores/doc/screenshots/device-2015-12-07-181830.png?raw=true "Widgets")|![Settings](./FootballScores/doc/screenshots/device-2015-12-07-181535.png?raw=true "Settings")|
 
 
-###Release notes - v1.1 - 20151101
-
-
-#####Requirements
-Android 3.0 Honeycomb or later (API level 11)
-
-
-#####Additions
-_The FSXX numbers below refer to my [Trello board FootballScores](https://trello.com/b/wUOvWbM1) used for this release, let me know if you want access._
-
-* ..
-
-
-#####Fixes
-* ..
 
 
 
