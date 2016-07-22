@@ -34,7 +34,7 @@ The Football Scores app uses the Football-data.org Api to retrieve the fixtures-
 
 |Main|Detail|Widgets|Settings|
 |---|---|---|---|
-| ![Main](./FootballScores/doc/screenshots/device-2015-12-07-181150.png?raw=true "Main") | ![Detail](./FootballScores/doc/screenshots/device-2015-12-07-181351.png?raw=true "Detail") |![Widgets](./FootballScores/doc/screenshots/device-2015-12-07-181830.png?raw=true "Widgets")|![Settings](./FootballScores/doc/screenshots/device-2015-12-07-181535.png?raw=true "Settings")|
+| ![Main](../master/art/football_1.png?raw=true  "Main") | ![Detail](../master/art/football_2.png?raw=true  "Detail") |![Widgets](./FootballScores/doc/screenshots/device-2015-12-07-181830.png?raw=true "Widgets")|![Settings](./FootballScores/doc/screenshots/device-2015-12-07-181535.png?raw=true "Settings")|
 
 
 
