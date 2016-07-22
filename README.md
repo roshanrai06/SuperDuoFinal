@@ -12,7 +12,7 @@ This application retrieves book information from the [Google Books API](https://
 
 |Drawer|Book list|Book detail|Add book|
 |---|---|---|---|
-| ![Drawer](./Alexandria/doc/screenshots/drawer-2015-11-20-125800.png?raw=true "Drawer") | ![Book list](./Alexandria/doc/screenshots/book-list-2015-11-20-125418.png?raw=true "Book list") |![Book detail](./Alexandria/doc/screenshots/book-detail-2015-11-20-125540.png?raw=true "Book detail")|![Add book](./Alexandria/doc/screenshots/add-book-2015-11-20-125149.png?raw=true "Add book")|
+| ![Drawer](./master/art/alexandria_4.png?raw=true "Drawer") | ![Book list](./Alexandria/doc/screenshots/book-list-2015-11-20-125418.png?raw=true "Book list") |![Book detail](./Alexandria/doc/screenshots/book-detail-2015-11-20-125540.png?raw=true "Book detail")|![Add book](./Alexandria/doc/screenshots/add-book-2015-11-20-125149.png?raw=true "Add book")|
 
 |Scan a new Book|Tablet|
 |---|---|
