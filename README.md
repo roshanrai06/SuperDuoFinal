@@ -16,7 +16,7 @@ This application retrieves book information from the [Google Books API](https://
 
 |Scan a new Book|Tablet|
 |---|---|
-|![Scan](./Alexandria/doc/screenshots/scan-2015-11-20-130602.png?raw=true "Scan")|![Tablet](./Alexandria/doc/screenshots/tablet-2015-11-20-130602.png?raw=true "Tablet")|
+|![Scan](../master/art/alexandria_5.png?raw=true "Scan")|![Tablet](../master/art/alexandria_7.png?raw=true "Tablet")|
 
 
 
