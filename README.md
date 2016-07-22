@@ -41,7 +41,7 @@ The Football Scores app uses the Football-data.org Api to retrieve the fixtures-
 
 
 ###App diagram
-![App diagram](../master/art/FootballScores.P3.2?raw=true  "App diagram")
+![App diagram](../master/art/FootballScores.P3.2.png?raw=true  "App diagram")
 
 
 
