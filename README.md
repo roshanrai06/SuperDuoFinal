@@ -23,7 +23,7 @@ This application retrieves book information from the [Google Books API](https://
 
 
 ###App diagram
-![App diagram](./Alexandria/doc/Alexandria.P3.2.png?raw=true "App diagram")
+![App diagram](../master/art/Alexandria.P3.2.png?raw=true "App diagram")
 
 
 ##FootballScores 1.1
